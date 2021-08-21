@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ashley &amp; Brock | Our Wedding</title>
+    <link rel="shortcut icon" href="/assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="rsvp-finder show">
+      <form class="RSVP-finder-form">
+        <h1>Find your invite</h1>
+        <div class="form-block">
+          <label class="input-block full-width">
+            <input type="text" name="email" value="" required>
+            <span>Your email</span>
+          </label>
+          <div id="rsvp-finder-error"></div>
+        </div>
+        <button type="submit" name="button">Search →</button>
+      </form>
+    </div>
+    <div id="app" class="hide">
+      <div class="leafs">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="1" src="./assets/leaves-deux/Calque 1.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="2" src="./assets/leaves-deux/Calque 2.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="3" src="./assets/leaves-deux/Calque 3.png" alt="">
+        <img style="width: 140px" class="no-animate leaf" data-leaf="4" src="./assets/leaves-deux/Calque 4.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="5" src="./assets/leaves-deux/Calque 5.png" alt="">
+        <img style="width: 140px" class="no-animate leaf" data-leaf="6" src="./assets/leaves-deux/Calque 6.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="7" src="./assets/leaves-deux/Calque 7.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="8" src="./assets/leaves-deux/Calque 8.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="9" src="./assets/leaves-deux/Calque 9.png" alt="">
+        <img style="width: 100px" class="no-animate leaf furthest" data-leaf="10" src="./assets/leaves-deux/Calque 10.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="11" src="./assets/leaves-deux/Calque 11.png" alt="">
+        <img style="width: 40px" class="no-animate leaf furthest" data-leaf="12" src="./assets/leaves-deux/Calque 12.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="13" src="./assets/leaves-deux/Calque 13.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="14" src="./assets/leaves-deux/Calque 14.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="15" src="./assets/leaves-deux/Calque 15.png" alt="">
+        <img style="width: 100px" class="no-animate leaf" data-leaf="16" src="./assets/leaves-deux/Calque 16.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="17" src="./assets/leaves-deux/Calque 17.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="18" src="./assets/leaves-deux/Calque 18.png" alt="">
+        <img style="width: 60px" class="no-animate leaf furthest" data-leaf="19" src="./assets/leaves-deux/Calque 19.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="20" src="./assets/leaves-deux/Calque 20.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="21" src="./assets/leaves-deux/Calque 21.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="1" src="./assets/leaves-deux/Calque 1.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="2" src="./assets/leaves-deux/Calque 2.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="3" src="./assets/leaves-deux/Calque 3.png" alt="">
+        <img style="width: 150px" class="no-animate leaf" data-leaf="4" src="./assets/leaves-deux/Calque 4.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="5" src="./assets/leaves-deux/Calque 5.png" alt="">
+        <img style="width: 100px" class="no-animate leaf" data-leaf="6" src="./assets/leaves-deux/Calque 6.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="7" src="./assets/leaves-deux/Calque 7.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="8" src="./assets/leaves-deux/Calque 8.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="9" src="./assets/leaves-deux/Calque 9.png" alt="">
+        <img style="width: 100px" class="no-animate leaf furthest" data-leaf="10" src="./assets/leaves-deux/Calque 10.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="11" src="./assets/leaves-deux/Calque 11.png" alt="">
+        <img style="width: 40px" class="no-animate leaf furthest" data-leaf="12" src="./assets/leaves-deux/Calque 12.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="13" src="./assets/leaves-deux/Calque 13.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="14" src="./assets/leaves-deux/Calque 14.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="15" src="./assets/leaves-deux/Calque 15.png" alt="">
+        <img style="width: 100px" class="no-animate leaf" data-leaf="16" src="./assets/leaves-deux/Calque 16.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="17" src="./assets/leaves-deux/Calque 17.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="18" src="./assets/leaves-deux/Calque 18.png" alt="">
+        <img style="width: 60px" class="no-animate leaf furthest" data-leaf="19" src="./assets/leaves-deux/Calque 19.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="20" src="./assets/leaves-deux/Calque 20.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="21" src="./assets/leaves-deux/Calque 21.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="13" src="./assets/leaves-deux/Calque 13.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="14" src="./assets/leaves-deux/Calque 14.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="15" src="./assets/leaves-deux/Calque 15.png" alt="">
+        <img style="width: 100px" class="no-animate leaf" data-leaf="16" src="./assets/leaves-deux/Calque 16.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="17" src="./assets/leaves-deux/Calque 17.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="18" src="./assets/leaves-deux/Calque 18.png" alt="">
+        <img style="width: 60px" class="no-animate leaf furthest" data-leaf="19" src="./assets/leaves-deux/Calque 19.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="20" src="./assets/leaves-deux/Calque 20.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="21" src="./assets/leaves-deux/Calque 21.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="1" src="./assets/leaves-deux/Calque 1.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="2" src="./assets/leaves-deux/Calque 2.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="3" src="./assets/leaves-deux/Calque 3.png" alt="">
+        <img style="width: 150px" class="no-animate leaf" data-leaf="4" src="./assets/leaves-deux/Calque 4.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="5" src="./assets/leaves-deux/Calque 5.png" alt="">
+        <img style="width: 100px" class="no-animate leaf" data-leaf="6" src="./assets/leaves-deux/Calque 6.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="7" src="./assets/leaves-deux/Calque 7.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="8" src="./assets/leaves-deux/Calque 8.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="9" src="./assets/leaves-deux/Calque 9.png" alt="">
+        <img style="width: 100px" class="no-animate leaf furthest" data-leaf="10" src="./assets/leaves-deux/Calque 10.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="11" src="./assets/leaves-deux/Calque 11.png" alt="">
+        <img style="width: 40px" class="no-animate leaf furthest" data-leaf="12" src="./assets/leaves-deux/Calque 12.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="13" src="./assets/leaves-deux/Calque 13.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="14" src="./assets/leaves-deux/Calque 14.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="15" src="./assets/leaves-deux/Calque 15.png" alt="">
+        <img style="width: 100px" class="no-animate leaf" data-leaf="16" src="./assets/leaves-deux/Calque 16.png" alt="">
+        <img style="width: 100px" class="no-animate leaf back" data-leaf="17" src="./assets/leaves-deux/Calque 17.png" alt="">
+        <img style="width: 60px" class="no-animate leaf back" data-leaf="18" src="./assets/leaves-deux/Calque 18.png" alt="">
+        <img style="width: 60px" class="no-animate leaf furthest" data-leaf="19" src="./assets/leaves-deux/Calque 19.png" alt="">
+        <img style="width: 60px" class="no-animate leaf" data-leaf="20" src="./assets/leaves-deux/Calque 20.png" alt="">
+      </div>
+      <div class="left-side">
+        <div class="gradients">
+          <div class="gradient a"></div>
+          <div class="gradient b"></div>
+        </div>
+        <div class="ul-wrapper">
+          <div class="ul-bg"></div>
+          <ul>
+            <li class="selected" data-name="home"><span class="ul-arrow">→</span>Ashley &amp; Brock</li>
+            <li data-name="schedule"><span class="ul-arrow">→</span>Schedule of Events</li>
+            <li data-name="accommodations"><span class="ul-arrow">→</span>Accommodations</li>
+            <li data-name="faq"><span class="ul-arrow">→</span>FAQ</li>
+            <li class="double-space" data-name="rsvp"><span class="ul-arrow">→</span>RSVP</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-side">
+        <div id="down" class="show">
+          <svg width="29" height="10" viewBox="0 0 29 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M28 1.5L14.5 9L1.5 1.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="back-button">
+          ← Menu
+        </div>
+        <div class="parts-container">
+          <div class="part part--full-width show" data-part="1">
+            <div class="inline-block">
+              <div class="persona ashley">
+                <div class="ash-and-i" style="background-image: url(./assets/ash.jpg)"></div>
+                <div class="meta">
+                  <h1>We're getting married!</h1>
+                  <div class="description">
+                    <p>We're so excited to bring all of our favorite people together in one of our favorite places to celebrate the occasion!</p>
+                    <p>This will be the best place to find all the details leading up to our big day.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="part" data-part="2">
+            <div class="inline-block content-wrapper">
+              <div>
+                <h1>Schedule of Events</h1>
+                <p> Join us for a weekend of celebration in Newport, including:</p>
+                <section>
+                  <h3>Casual welcome drinks</h3>
+                  <p>Saturday, September 4<sup>th</sup>, 2021</p>
+                  <p>We'll plan to meet up for unofficial welcome drinks on Saturday for those who are in town early. Details tbd!</p>
+                </section>
+                <section>
+                  <h3>Sunset sail</h3>
+                  <p>Sunday, September 5<sup>th</sup>, 2021</p>
+                  <p>We're chartering the 101' antique schooner Aurora for a sunset sail to kick off our wedding festivities.</p>
+                  <h3>Rehearsal dinner</h3>
+                  <p>The bridal party and immediate family will be invited to join us at Castle Hill Inn for our rehearsal dinner.</p>
+                </section>
+                <section>
+                  <h3>The big day</h3>
+                  <p>Monday, September 6<sup>th</sup>, 2021</p>
+                  <p>For our wedding day, we'll be taking over Rosecliff, a beautiful Gilded Age mansion modeled after the Grand Trianon at Versailles, and featured in several films, including the 1970s Great Gatsby.</p>
+                </section>
+                <section>
+                  <h3>Farewell brunch</h3>
+                  <p>Tuesday, September 7<sup>th</sup>, 2021</p>
+                  <p>One last hurrah, complete with bloody mary and mimosa bar before we all part ways.</p>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="part" data-part="3">
+            <div class="inline-block content-wrapper accommodations">
+              <h1>Accommodations</h1>
+              <p>Labor Day Weekend is very busy in Newport, so we recommend you book accommodations as soon as possible. Below are some popular options, but feel free to book anywhere in Newport. If you need help, please reach out to Ashley anytime!</p>
+              <h2>Hotels</h2>
+              <section>
+                <h3>The Chanler <span class="small">($$$)</span></h3>
+                <a href="https://www.thechanler.com/"><p>Stay in one of the 20 opulent rooms set in this 1873 cliffside mansion, once owned by the Astor family.</p></a>
+              </section>
+              <section>
+                <h3>Castle Hill Inn <span class="small">($$$)</span></h3>
+                <a href="https://www.castlehillinn.com/"><p>This 1874 mansion was built by oil mining magnate Alexander Agassiz as the summer home to rival all summer homes, and is now the best spot in Newport according to the New York Times.</p></a>
+              </section>
+               <section>
+                <h3>The Vanderbilt <span class="small">($$$)</span></h3>
+                <a href="https://aubergeresorts.com/vanderbilt/"><p>This 1909 mansion was formerly the summer home of the Vanderbilts, but is now part of the Auberge Resorts Collection.</p></a>
+              </section>
+              <section>
+                <h3>Gilded <span class="small">($$)</span></h3>
+                <a href="https://www.gildedhotel.com/"><p>This playful B&B gives the Beaux Arts style a contemporary spin, and is a short walk to buzzy Thames Street.</p></a>
+              <section>
+                <h3>Cute Quahog Cottage</h3>
+                <a href="https://www.thecliffsideinn.com/"><p>3br, 2.5ba home with private backyard patio and an outdoor shower.</p></a>
+              </section>
+              <h2>Airbnbs</h2>
+              <section>
+                <h3>Bright Newport Cottage</h3>
+                <a href="https://www.vrbo.com/1037596?adultsCount=2&arrival=2021-09-03&departure=2021-09-06&unitId=1585712"><p>3br, 2.5ba home in downtown Newport.</p></a>
+              </section>
+              <section>
+                <h3>Beachside Dutch Colonial</h3>
+                <a href="https://www.vrbo.com/100496ha?adultsCount=8&arrival=2021-09-03&departure=2021-09-07"><p>6 bedrooms, 3ba set 200 yards from the beach.</p></a>
+              </section>
+              <section>
+                <h3>Queen Anne Style Inn</h3>
+                <a href="https://www.vrbo.com/171488ha?adultsCount=8&arrival=2021-09-03&departure=2021-09-07&unitId=466585"><p>Buyout this 8br, 8ba inn located two blocks from Newport Harbor and steps from shopping and nightlife.</p></a>
+              </section>
+              <section>
+                <h3>Stylish Brick Loft</h3>
+                <a href="https://www.airbnb.com/rooms/43899365?adults=2&check_in=2021-09-03&check_out=2021-09-06&source_impression_id=p3_1608758830_86N%2BwLbQpydVEaQb&guests=1"><p>1 br, 1 ba modern loft with open floor plan and original exposed brick.</p></a>
+              </section>
+            </div>
+          </div>
+          <div class="part" data-part="4">
+            <div class="inline-block content-wrapper">
+              <h1>FAQ</h1>
+              <section>
+                <h3>What is the attire for the wedding?</h3>
+                <p>Attire is black-tie optional (suits for men, cocktail dresses or gowns for women).</p>
+              </section>
+              <section>
+              <h3>What is the weather like in Newport?</h3>
+                <p>In early September the weather is usually amazing! Mid 70s during the day and 60s in the evening.</p>
+              </section>
+              <section>
+              <h3>How best do I travel to Newport?</h3>
+                <p>The closest airport is Providence (PVD) which is about 30 minutes from Newport. Alternatively, Boston (BOS) has more flights, but you'll need to drive 90 minutes to get into town.</p>
+              </section>
+            </div>
+          </div>
+          <div class="part part--rsvp" data-part="5">
+            <div class="inline-block">
+              <div class="rsvp-form-wrapper">
+                <img class="RSVP" src="./assets/RSVP.png" />
+                <form class="RSVP-form">
+                  <div class="form-block">
+                    <div class="input-row">
+                      <label class="input-block full-width">
+                        <input class="input--large" type="text" name="name" value="" placeholder="Your name" required>
+                      </label>
+                    </div>
+                    <div class="mailing-address">
+                      <div class="input-row">
+                        <label class="input-block full-width">
+                          <input type="text" name="addr_line_1" value="" required>
+                          <span>Street Address</span>
+                        </label>
+                      </div>
+                      <div class="input-row">
+                        <label class="input-block">
+                          <input type="text" name="addr_line_2" value="" required>
+                          <span>Apt. / Line 2</span>
+                        </label><label class="input-block">
+                          <input type="text" name="addr_city" value="" required>
+                          <span>City</span>
+                        </label>
+                      </div>
+                      <div class="input-row">
+                        <label class="input-block">
+                          <input type="text" name="addr_state" value="" required>
+                          <span>State</span>
+                        </label><label class="input-block">
+                          <input type="text" name="addr_zip" value="" required>
+                          <span>Zip Code</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-block form-block--radios">
+                    <div class="prefix">Will you be able to...</div>
+                    <label class="input-block full-width">
+                      <div>Come sailing on Sunday the 5th?</div>
+                      <label>
+                        <input type="radio" id="rsvp_sailing" name="rsvp_sailing" value="true">
+                        <span>Yes</span>
+                      </label>
+                      <label>
+                        <input type="radio" id="rsvp_sailing" name="rsvp_sailing" value="false">
+                        <span>No</span>
+                      </label>
+                    </label>
+                    <label class="input-block full-width">
+                      <div>Come to the Wedding on Monday the 6th (Labor day)?</div>
+                      <label>
+                        <input type="radio" id="rsvp_wedding" name="rsvp_wedding" value="true">
+                        <span>Yes</span>
+                      </label>
+                      <label>
+                        <input type="radio" id="rsvp_wedding" name="rsvp_wedding" value="false">
+                        <span>No</span>
+                      </label>
+                    </label>
+                    <div class="prefix">Would you be more interested in...</div>
+                    <label class="input-block full-width">
+                      <div>Welcome drinks on Saturday the 4th, or a post-wedding brunch on the 7th?</div>
+                      <label class="inset-radio">
+                        <input type="radio" name="rsvp_optional_preference" value="welcome_drinks">
+                        <span>Welcome drinks</span>
+                      </label>
+                      <label class="inset-radio">
+                        <input type="radio" name="rsvp_optional_preference" value="post_wedding_brunch">
+                        <span>Post-wedding brunch</span>
+                      </label>
+                    </label>
+                  </div>
+                </form>
+                <div id="error"></div>
+                <button type="button" name="button">Send →</button>
+              </div>
+              <div class="rsvp-success hide">
+                <img class="rosecliff" src="/assets/rosecliff.png" />
+                <i>We recieved your response, thank you for RSVPing!</i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/main.js" charset="utf-8"></script>
+  </body>
+</html>

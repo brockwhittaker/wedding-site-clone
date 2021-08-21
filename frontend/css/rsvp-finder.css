@@ -1,0 +1,45 @@
+.rsvp-finder {
+  z-index: 3;
+  position: fixed;
+  width: 100vw;
+  height: var(--app-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffe7c140;
+  opacity: 0;
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  pointer-events: none;
+  padding: 40px;
+}
+
+.rsvp-finder.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: all;
+}
+
+.rsvp-finder.show + #app {
+  filter: blur(15px);
+}
+
+.RSVP-finder-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.RSVP-finder-form h1 {
+  font-weight: 500;
+}
+
+#rsvp-finder-error {
+  width: 100%;
+  text-shadow: 0px 0px 30px #fff7e5, 0px 0px 30px #fff7e5;
+}
+
+.RSVP-finder-form button {
+  margin-top: 30px;
+  font-size: 1em;
+  color: #000;
+}

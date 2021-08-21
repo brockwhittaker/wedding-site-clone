@@ -1,0 +1,5 @@
+.DS_Store
+frontend/.cache
+frontend/dist
+frontend/assets/leafs/
+frontend/assets/leaves-deux/old

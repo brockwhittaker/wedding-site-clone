@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Pockota";
+  font-weight: 300;
+  src: url(../assets/Pockota-Light.ttf);
+}
+
+@font-face {
+  font-family: "Pockota";
+  font-weight: 400;
+  src: url(../assets/Pockota-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Pockota";
+  font-weight: 500;
+  src: url(../assets/Pockota-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Pockota";
+  font-weight: 300;
+  font-style: italic;
+  src: url(../assets/Pockota-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Pockota";
+  font-weight: 400;
+  font-style: italic;
+  src: url(../assets/Pockota-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Pockota";
+  font-weight: 500;
+  font-style: italic;
+  src: url(../assets/Pockota-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "Betterworks";
+  src: url(../assets/Betterworks.otf);
+}

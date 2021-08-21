@@ -1,0 +1,175 @@
+form input {
+  font-family: Inter, sans-serif;
+  color: #4c4944;
+  font-size: 1em;
+}
+
+form {
+  position: relative;
+  max-width: 500px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+form .form-block {
+  display: block;
+  margin-top: 20px;
+}
+
+.RSVP {
+  width: 150px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.part--rsvp {
+  position: relative;
+}
+
+.part--rsvp > .inline-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.RSVP-form {
+  position: relative;
+  min-height: 100%;
+}
+
+.input-block {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin: 8px 0px;
+}
+
+.input-block span {
+  font-weight: 300;
+}
+
+.input-row .input-block {
+  width: calc(50% - 5px);
+}
+
+.input-block.full-width {
+  width: 100%;
+}
+
+.input-row :first-child {
+  margin-right: 10px;
+}
+
+.input-block input[type="text"] + span {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  left: 15px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+.input-block input[type="radio"] {
+  filter: hue-rotate(180deg) saturate(0.7) brightness(1.5);
+  opacity: 0.5;
+}
+
+.input-block input[type="radio"]:checked {
+  opacity: 1;
+}
+
+.input-block input[type="text"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  background: #ffffffa0;
+  box-shadow: 0px 8px 30px -8px #4c494430;
+  transition: all 0.2s ease;
+}
+
+.input-block input[type="text"].input--large {
+  background: transparent;
+  box-shadow: none;
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: Pockota;
+  letter-spacing: -0.5px;
+}
+
+.input-block input[type="text"].input--large:hover {
+  background: #ffffff80;
+  box-shadow: 0px 8px 30px -8px #4c494430;
+}
+
+
+.input-block input[type="text"]:not(.input--large):valid {
+  padding: 30px 15px 10px 15px;
+}
+
+.input-block input[type="text"]:valid + span {
+  font-size: 0.8em;
+  opacity: 0.5;
+  font-weight: 500;
+  top: 12px;
+}
+
+.inset-radio {
+  margin-left: 10px;
+  display: block;
+  margin-top: 5px;
+}
+
+.part--rsvp button,
+form button {
+  float: right;
+  margin-top: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Betterworks', Pockota;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: inherit;
+}
+
+.part--rsvp button {
+  height: 80px;
+  margin-top: 50px;
+}
+
+form .prefix {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#error,
+#rsvp-finder-error {
+  position: absolute;
+  transform: translateY(10px);
+  color: #c74e64;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+#error.show,
+#rsvp-finder-error.show {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+#error {
+  margin-left: 15px;
+}
+
+.form-block--radios {
+  margin-left: 15px;
+}
