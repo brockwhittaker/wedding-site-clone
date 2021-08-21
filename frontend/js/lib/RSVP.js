@@ -20,7 +20,10 @@ export const findRSVP = (() => {
   // or to do something similar if you share similar risk. I didn't want
   // this to have to fetch a remote list of emails, so that my fiancee
   // could manage this, so text list was easiest. :)
-  e(RSVP_LIST).split(/\n/g).map(o => {
+  //
+  //e(RSVP_LIST).split(/\n/g).map(o => {
+  //
+  RSVP_LIST.split(/\n/g).map(o => {
     const cells = o.split(/,/);
 
     cells[1] = normalize(cells[1])

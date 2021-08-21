@@ -3,3 +3,5 @@ frontend/.cache
 frontend/dist
 frontend/assets/leafs/
 frontend/assets/leaves-deux/old
+node_modules
+package-lock.json
